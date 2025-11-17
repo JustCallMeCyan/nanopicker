@@ -1,3 +1,3 @@
 #!/bin/bash
-FILE=$(zenity --file-selection --title="Select File")
+FILE=$(zenity --file-selection --title="Select file")
 [ -n "$FILE" ] && nano "$FILE"
